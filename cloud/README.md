@@ -227,9 +227,9 @@ A **Bastion Host** is a publicly accessible server that provides secure SSH acce
 
 ---
 
-## **Advanced Level (41-60 Questions)**  
+## **Advanced Level (31-50 Questions)**  
 
-### **41. What is a Service Level Agreement (SLA) in cloud computing?**  
+### **31. What is a Service Level Agreement (SLA) in cloud computing?**  
 
 **Answer:**  
 An SLA is a contract between a cloud provider and a customer that defines:  
@@ -238,7 +238,7 @@ An SLA is a contract between a cloud provider and a customer that defines:
 - **Response Time** (e.g., Support request resolution in 24 hours).  
 - **Penalties** if SLA is not met (e.g., refund or service credits).  
 
-### **42. How do you optimize cloud costs?**  
+### **32. How do you optimize cloud costs?**  
 
 **Answer:**  
 
@@ -247,24 +247,24 @@ An SLA is a contract between a cloud provider and a customer that defines:
 - **Monitor usage with AWS Cost Explorer/Azure Cost Management.**  
 - **Right-size resources** by selecting appropriate instance sizes.  
 
-### **43. What is Kubernetes federation?**  
+### **33. What is Kubernetes federation?**  
 
 **Answer:**  
 Kubernetes Federation allows managing multiple Kubernetes clusters as a single unit for **high availability** and **multi-cloud support.**  
 
-### **44. How does Chaos Engineering apply to cloud environments?**  
+### **34. How does Chaos Engineering apply to cloud environments?**  
 
 **Answer:**  
 Chaos Engineering **intentionally injects failures** to test system resilience.  
 
 - Example: Netflix **Simian Army** kills random instances to test system fault tolerance.  
 
-### **45. What is a Kubernetes operator?**  
+### **35. What is a Kubernetes operator?**  
 
 **Answer:**  
 A **Kubernetes Operator** automates complex tasks for stateful applications (e.g., managing databases in Kubernetes).  
 
-### **46. How do you implement multi-region deployments?**  
+### **36. How do you implement multi-region deployments?**  
 
 **Answer:**  
 
@@ -272,41 +272,41 @@ A **Kubernetes Operator** automates complex tasks for stateful applications (e.g
 - **Traffic Routing:** Use DNS-based routing (e.g., AWS Route 53).  
 - **Failover Mechanism:** Auto-switch to another region in case of failure.  
 
-### **47. What is a Cloud Access Security Broker (CASB)?**  
+### **37. What is a Cloud Access Security Broker (CASB)?**  
 
 **Answer:**  
 A CASB is a security layer between cloud users and providers, enforcing **compliance, threat protection, and data security.**  
 
-### **48. How do you ensure compliance in cloud environments?**  
+### **38. How do you ensure compliance in cloud environments?**  
 
 **Answer:**  
 
 - **Use Compliance Frameworks:** HIPAA, SOC 2, GDPR.  
 - **Enable Logging & Auditing:** AWS CloudTrail, Azure Security Center.  
 
-### **49. What is zero-trust security in cloud environments?**  
+### **39. What is zero-trust security in cloud environments?**  
 
 **Answer:**  
 Zero-trust security assumes **no implicit trust** and enforces strict identity verification for every request.  
 
-### **50. How does serverless architecture improve scalability?**  
+### **40. How does serverless architecture improve scalability?**  
 
 **Answer:**  
 Serverless auto-scales **instantly** based on demand, eliminating pre-provisioning of resources.  
 
-### **51. What is an egress charge in cloud pricing?**  
+### **41. What is an egress charge in cloud pricing?**  
 
 **Answer:**  
 Egress charges are fees for **data transfer out of the cloud provider's network.**  
 
-### **52. How do you prevent DDoS attacks in the cloud?**  
+### **42. How do you prevent DDoS attacks in the cloud?**  
 
 **Answer:**  
 
 - Use **AWS Shield, Azure DDoS Protection, Cloudflare WAF.**  
 - Implement **Rate Limiting** on API endpoints.  
 
-### **53. What are the best practices for cloud security?**  
+### **43. What are the best practices for cloud security?**  
 
 **Answer:**  
 
@@ -314,7 +314,7 @@ Egress charges are fees for **data transfer out of the cloud provider's network.
 - **Encrypt Data at Rest & Transit** (KMS, SSL/TLS).  
 - **Enable Multi-Factor Authentication (MFA).**  
 
-### **54. What are the risks of vendor lock-in, and how do you mitigate them?**  
+### **44. What are the risks of vendor lock-in, and how do you mitigate them?**  
 
 **Answer:**  
 Vendor lock-in occurs when a company becomes dependent on a single cloud provider, making migration difficult due to high costs or compatibility issues.  
@@ -324,7 +324,7 @@ Vendor lock-in occurs when a company becomes dependent on a single cloud provide
 - Adopt **open-source** and **portable** tools (e.g., Kubernetes, Terraform).  
 - Design applications with **cloud-agnostic architectures** using containerization and microservices.  
 
-### **55. What is Kubernetes pod affinity and anti-affinity?**  
+### **45. What is Kubernetes pod affinity and anti-affinity?**  
 
 **Answer:**  
 Pod affinity and anti-affinity define rules for **where Kubernetes pods should be scheduled** based on labels.  
@@ -346,7 +346,7 @@ Pod affinity and anti-affinity define rules for **where Kubernetes pods should b
           topologyKey: "kubernetes.io/hostname"
   ```
 
-### **56. How do you prevent DDoS attacks in cloud environments?**  
+### **46. How do you prevent DDoS attacks in cloud environments?**  
 
 **Answer:**  
 To prevent **DDoS (Distributed Denial of Service) attacks**, use:  
@@ -356,7 +356,7 @@ To prevent **DDoS (Distributed Denial of Service) attacks**, use:
 - **Rate Limiting & Traffic Throttling:** Block excessive requests from suspicious IPs.  
 - **Network ACLs & Security Groups:** Restrict unnecessary traffic at the firewall level.  
 
-### **57. What is confidential computing in the cloud?**  
+### **47. What is confidential computing in the cloud?**  
 
 **Answer:**  
 Confidential computing encrypts data **even while it is being processed** to enhance security.  
@@ -367,7 +367,7 @@ Confidential computing encrypts data **even while it is being processed** to enh
   - **Azure Confidential Computing**  
   - **Google Cloud Confidential VMs**  
 
-### **58. What is a policy-as-code approach in cloud security?**  
+### **48. What is a policy-as-code approach in cloud security?**  
 
 **Answer:**  
 Policy-as-Code (PaC) automates security and compliance checks using **code-based policies**.  
@@ -378,7 +378,7 @@ Policy-as-Code (PaC) automates security and compliance checks using **code-based
   - **HashiCorp Sentinel**  
 - Example: Enforce that all S3 buckets must be encrypted.  
 
-### **59. How do you implement cloud governance?**  
+### **49. How do you implement cloud governance?**  
 
 **Answer:**  
 Cloud governance ensures compliance, security, and cost control.  
@@ -387,7 +387,7 @@ Cloud governance ensures compliance, security, and cost control.
 - **Budget & Cost Management:** Use AWS Budgets, Azure Cost Management.  
 - **Automated Compliance Checks:** Use AWS Config, Azure Policy.  
 
-### **60. What are the best practices for cloud security?**  
+### **50. What are the best practices for cloud security?**  
 
 **Answer:**  
 
